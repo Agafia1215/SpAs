@@ -6,8 +6,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:fftea/fftea.dart';
 import 'dart:convert';
 
-import 'package:voice_assistant/models/accent_profile.dart';
-import 'package:voice_assistant/models/recognition_result.dart';
+import '../models/accent_profile.dart';
+import 'recognition_result.dart';
 
 /// Сервис для работы с TensorFlow Lite моделями
 class TFLiteService {

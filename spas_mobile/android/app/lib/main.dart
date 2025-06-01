@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:spas_mobile/services/tflite_service.dart';
-import 'package:voice_assistant/pages/voice_assistant_page.dart';
+import 'package:spas_mobile/android/app/lib/services/tflite_service.dart';
+import 'package:spas_mobile/android/app/lib/pages/voice_assistant_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

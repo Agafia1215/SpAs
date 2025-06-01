@@ -3,9 +3,9 @@ import 'package:provider/provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'dart:async';
 
-import 'package:voice_assistant/services/audio_service.dart';
-import 'package:voice_assistant/services/tflite_service.dart';
-import 'package:voice_assistant/models/accent_profile.dart';
+import '../services/audio_service.dart';
+import '../services/tflite_service.dart';
+import '../models/accent_profile.dart';
 
 class VoiceAssistantPage extends StatefulWidget {
   const VoiceAssistantPage({Key? key}) : super(key: key);
